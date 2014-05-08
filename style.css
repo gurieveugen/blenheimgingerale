@@ -1,0 +1,888 @@
+@charset "utf-8";
+/* CSS Document */
+h1, h2, h3, h4, h5, h6, p, a, div, span, blockquote
+cite, dl, at, dd, ol, ul, li, img{
+	padding:0;
+	margin:0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	
+}
+a, a:hover, a:visited{
+	text-decoration:none;
+}
+a{
+color: #998652;
+}
+a:hover{
+color:#a5401e;
+text-decoration:underline;
+}
+img.alignleft{
+float:left;
+}
+img.alignright{
+float:right;
+}
+body{
+	width:100%;
+	height:auto;
+	margin:auto;
+	background:url(Images/background.png) repeat;
+        padding-bottom:20px;
+}
+
+#container{
+	width:826px;
+	height:auto;
+	margin:auto;
+	margin-top:32px;
+	text-align:center;
+}
+#maincontainer{
+	width:826px;
+	height:591px;
+	margin:auto;
+	margin-top:45px;
+	padding:16px 0px 16px 0px;
+	background:url(Images/border.png) no-repeat;
+}
+#bottleimg{
+	width:791px;
+	height:428px;
+	margin:auto;
+	padding-top:66px;
+	background:url(Images/bottle.png) no-repeat ;
+}
+#banner{
+	width:791px;
+	height:57px;
+}
+#historyban{
+	width:201px;
+	float:left;
+	padding-left:14px;
+}
+#productsban{
+	width:201px;
+	float:right;
+	padding-right:14px;
+}
+#content{
+	width:791px;
+	height:359px;
+}
+#content #leftcontent{
+	width:220px;
+	height:359px;
+	margin:10px 0px 10px 20px;
+	float:left;
+
+}
+#content #leftcontent p{
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+	color:#ebd9b3;
+	font-size:.85em;
+	line-height:1.2em;
+}
+#content #rightcontent{
+	width:270px;
+	height:359px;
+	margin:10px 5px 15px 5px;
+	float:right;
+}
+#content #rightcontent .swapDiv{
+	width:270px;
+	height:218px;
+	display:none;
+	clear:both;
+	padding-top:20px;
+}
+#content #rightcontent #gold{
+	display:block;
+}
+
+#content #rightcontent ul.capsrow{
+	list-style:none;
+	text-align:right;
+}
+#content #rightcontent ul.capsrow li{
+	list-style-type:none;
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+}
+
+
+#content #rightcontent .swapDiv p{
+	margin:0px 30px 0px 45px;
+
+	padding-top:20px;
+	text-align:left;
+	font-family:"Times New Roman", Times, serif;
+	font-style:italic;
+	color:#dcc374;
+	font-size:.85em;
+	line-height:1.4em;
+}
+#maincontainer #bottomnavigation{
+	width:791px;
+	height:51px;
+	margin:auto;
+	padding-top:45px;
+	background:url(/wp-content/themes/Blenheim/Images/navbackground.png) no-repeat;
+}
+#bottomnavigation ul{
+	text-align:center;
+}
+#bottomnavigation ul li{
+	list-style-type:none;
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	vertical-align:middle;
+	padding:0px 15px 0px 15px;
+}
+
+#footer{
+	 margin:auto;
+	 margin-top:20px;
+	 width:826px;
+	 height:140px;;
+}
+#footer #logocopy{
+	width:297px;
+	height:93px;
+	float:left;
+	background:url(/wp-content/themes/Blenheim/Images/logo.png)  no-repeat;
+}
+#footer #findus{
+	width:163px;
+	padding-top:10px;
+	float:left;
+	margin-left:30px;
+}
+#footer #findus ul{
+	list-style-type: none;
+	margin-top:25px;
+}
+#footer #findus ul li{
+	list-style-type:none;
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	margin-right:6px;
+}
+#footer	.footernav{
+	width:85px;
+	margin-left:22px;
+	float:left;
+}
+#footer .footernav ul{
+	
+	list-style-image: none;
+	list-style-type: none;
+}
+#footer  .footernav ul li{
+	list-style-image: none;	
+}
+.copyrightcontent{
+	margin-left: 96px;
+	padding-top:9px;
+}
+.copyrightcontent, #logocopy a, .footernav ul li a{
+        font-family: "Times New Roman", Times, serif;
+	font-size: 0.8em;
+	line-height: 1.3em;
+	color: #998652;
+}
+.footernav ul li a{
+	padding:5px 0px 5px 0px;
+	display:block;
+	border-bottom:1px solid #5d5028;
+}
+.footernav ul li a:hover, #logocopy a:hover{
+color:#a48011;
+}
+/*----- About Us Page Styles ------*/
+
+#aboutuscontainer{
+	margin:auto;
+	width:791px;
+	height:auto;
+	border-left:7px #998133 solid;
+	border-right:7px #998133 solid;
+}
+#aboutuscontainer #header{
+	width:791px;
+	height:137px;
+	margin:auto;
+	background:url(/wp-content/themes/Blenheim/Images/header.png) no-repeat;
+}
+
+#aboutuscontainer #bottomnavigation{
+	width:791px;
+	height:58px;
+	background:url(/wp-content/themes/Blenheim/Images/topnavbar.png) no-repeat;
+        padding-top:16px;
+}
+#aboutuscontainer #header #bottomnavigation ul{
+	text-align:center;
+}
+#aboutuscontainer #header #bottomnavigation ul li{
+	list-style-type:none;
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	vertical-align:middle;
+	padding:0px 15px 0px 15px;
+}
+#aboutuscontainer #aboutuscontent{
+	width:781px;
+	height:auto;
+	margin:auto;
+	padding:40px 10px 0px 0px;
+	background-image:url(/wp-content/themes/Blenheim/Images/contentbackground.png);
+
+}
+#aboutuscontainer #aboutuscontent #leftborderdiv{
+	width:781px;
+	height:auto;
+	margin:auto;
+	padding:0px 10px 0px 0px;
+	background:url(/wp-content/themes/Blenheim/Images/leftborder.png) bottom left no-repeat;
+	position:relative;
+	left:-7px;
+
+}
+ #aboutuscontent #leftsidebar{
+	width:auto;
+	height:auto;
+	float:left;
+}
+#aboutuscontent #leftsidebar #leftsidebarcontent{
+	 width:159px;
+	 height:390px;
+	margin-left:27px;
+	background:url(/wp-content/themes/Blenheim/Images/leftsidebartext.png) no-repeat;
+	text-align:center;
+	padding:15px 15px 15px 20px;
+}
+#leftsidebar #leftsidebarcontent img{
+        margin-right:2px;
+position:relative;
+bottom:-2px;
+}
+#aboutuscontent #bodycontent{
+		width:557px;
+		height:auto;
+		float:left;
+		
+}
+#aboutuscontent .clear{
+	clear:both;
+	
+	
+}
+#bottomborder{
+width:805px;
+	height:36px;
+	margin:auto;
+	background:url(/wp-content/themes/Blenheim/Images/bottomborder.png);
+	position:relative;
+	right:-1px;
+}
+
+#aboutuscontent #leftsidebar h1{
+	font-family:"Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:1.4em;
+	color:#a5401e;
+	font-weight:lighter;
+}
+#aboutuscontent #leftsidebar p{
+	margin-top:15px;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:normal;
+	font-size:.8em;
+	line-height:1.5em;
+	color:#5a4f31;
+}
+#aboutuscontent #bodycontent .post{
+ margin:0px 5px 0px 20px;
+}
+#aboutuscontent #bodycontent .post p,
+#imap1message{
+      margin:0px 5px 0px 0px;
+
+	font-family:"Times New Roman", Times, serif;
+
+	color:#5a4f31;
+
+	font-weight:normal;
+
+	font-size:.8em;
+
+	line-height:1.5em;
+
+}
+#aboutuscontent #bodycontent .post h7{
+ margin:0px 5px 0px 0px;
+padding-top:15px;
+font-family:"Times New Roman", Times, serif;
+color:#5a4f31;
+line-height:1.6em;
+font-weight:bold;
+font-size:1.2em;
+}
+#aboutuscontent #bodycontent .post h2{
+	
+	font-family:"Times New Roman", Times, serif;
+	text-transform:uppercase;
+	font-size:1.6em;
+	color:#a5401e;
+	font-weight:normal;
+}
+
+#aboutuscontent #bodycontent  #text {
+	width:335px;
+	height:auto;
+	float:left;
+}
+#aboutuscontent #bodycontent .post a{
+       color:#a5401e;
+}
+#aboutuscontent #bodycontent .post a:hover{
+      text-decoration:underline;
+}
+#aboutuscontent #bodycontent .post p #leftsidebar img{
+       position:relative;
+       bottom:-4px;
+}
+#aboutuscontent #bodycontent .post #text img{
+        
+        position:relative;
+bottom:-2px;
+}        
+#aboutuscontent #bodycontent  #images {
+	width:182px;
+	float:right;
+	height:auto;
+}
+#aboutuscontent #bodycontent  #images img{
+padding-bottom:20px;
+}
+#aboutuscontent #bodycontent .post h3{
+	font-family:"Times New Roman", Times, serif;
+	text-transform:uppercase;
+	color:#998133;
+	font-weight:normal;
+	font-size:1.2em;
+	margin:15px 0px 5px 0px;
+}
+#aboutuscontent #bodycontent .post  #text p{
+margin:0px 5px 0px 0px;
+font-family:"Times New Roman", Times, serif;
+color:#5a4f31;
+font-weight:normal;
+font-size:.8em;
+line-height:1.5em;
+}
+
+/*----- Contact Us Structure -----*/
+#contactus{
+        margin:0;
+}
+#contactus #contactform{
+        width:305px;
+        height:auto;
+        float:left;
+        padding-right:20px;
+}
+#contactus #contactinfo{
+       width:190px;
+       height:auto;
+       float:right;
+       padding-left:17px;
+}
+#contactus p, #contactus  p a{
+       font-family:"Times New Roman", Times, serif;
+       color:#5a4f31;
+       font-weight:normal;
+       font-size:.8em;
+       line-height:1.5em;
+}
+#contactus #contactinfo p, #contactus #contactinfo p a{
+       font-weight:bold;
+       font-size:.9em;
+       line-height:1.4em;
+}
+ #contactus #contactinfo p a:hover{
+       color:#a5401e;
+}
+#contactus #contactinfo h4{
+       font-family:"Times New Roman", Times, serif;
+       font-weight:normal;
+       color:#998133;
+       font-size:1.2em;
+       padding:20px 0px 4px 0px;
+       text-transform:uppercase;
+}
+#contactform form.wpcf7-form p{
+       margin-top:15px;
+}
+#contactform form.wpcf7-form p input, #contactform form.wpcf7-form p textarea{
+       margin:3px 0px 0px 3px;
+       background-color:#f2eee0;
+       border:1px solid #998133;
+}
+#contactform form.wpcf7-form p.submit input{
+       color:#fff;
+       background-color:#a4731b;
+}
+
+.wpcf7-form-control.wpcf7-captchac.wpcf7-captcha-captcha {
+	float: left;
+}
+#contactform form.wpcf7-form p input.wpcf7-captchar {
+	margin:0px 0px 0px 3px;
+}
+
+/*----- Shop Blenheim -----*/
+ .post #shoponline{
+width:360px;
+height:auto;
+margin-left:20px;
+padding:5px; 
+border:1px solid #a6914b;
+}
+ .post #invite{
+width:315px;
+height:auto;
+padding:15px 20px 15px 25px;
+background-color:#f4eedc;
+}
+.shopform{
+margin:0px;
+padding:0px;
+height:25px;
+}
+.shopform input#email{
+margin-left:5px;
+width:222px;
+}
+.shopform .notify{
+width:62px;
+height:20px;
+display:inline;
+border:1px solid #a5401e;
+padding:1px;
+
+
+}
+.shopform  input#submit{
+
+width:62px;
+height:20px;
+border:none;
+padding-bottom:3px;
+background-color:#a5401e;
+font-size:.9em;
+color:#fff;
+}
+/*----- Blog Page Structure -----*/
+#aboutuscontainer #blogcontent{
+	width:791px;
+	height:auto;
+	margin:auto;
+	padding:0px;
+	background-image:url(/wp-content/themes/Blenheim/Images/blogcontentbackground.png);
+
+}
+
+
+ #blogcontent #leftsidebar{
+	width:222px;
+	height:auto;
+	float:right;
+padding:3px 8px 10px 8px;
+}
+
+
+#blogcontent #bodycontent{
+		width:534px;
+		height:auto;
+		float:left;
+		padding:5px;
+                padding-top:30px;
+                padding-right:6px;
+		}
+#blogcontent #bodycontent.post{
+padding-bottom:15px;
+}
+#blogcontent #bodycontent #datetitle{
+	width:534px;
+	min-height:120px;
+         border-top:1px dotted #2b2106;
+	border-bottom:1px dotted #2b2106;
+}
+#blogcontent #bodycontent #altdatetitle{
+	width:534px;
+	min-height:120px;
+	border-bottom:1px dotted #2b2106;
+}
+#blogcontent #bodycontent  #titlecat{ 
+	width:385px;
+	height:110px;
+	padding-top:10px;
+	padding-left:15px;
+	float:right;
+	border-left:1px dotted #2b2106;
+}
+#blogcontent #bodycontent #altdatetitle #titlecat{
+        height:110px;
+}
+#blogcontent #bodycontent #datecal{
+	width:128px;
+	height:110px;
+	padding-top:10px;
+	float:right;
+	position:relative;
+	left:-40px;
+	}
+#blogcontent #bodycontent #altdatetitle #datecal{
+        height:110px;
+}
+#blogcontent #bodycontent #datecal img{
+	
+	margin-top:10px;
+	
+}
+#blogcontent #bodycontent #datetitle h2, #blogcontent #bodycontent #altdatetitle h2{
+	margin:0;
+	padding:0;
+}
+
+#blogcontent #bodycontent #datetitle h2 a, #blogcontent #bodycontent #altdatetitle h2 a {
+	margin:0;
+	padding:0;
+	font-family:"Times New Roman", Times, serif;
+        font-weight:normal;
+	font-style:italic;
+	font-size:1.4em;
+	color:#2b2106;
+        line-height:1em;
+	text-transform:none;
+}
+#blogcontent #bodycontent #datetitle h2 a:hover, #blogcontent #bodycontent #altdatetitle h2 a:hover {
+        color:#a5401e;
+        text-decoration:none;
+}
+#blogcontent #bodycontent #datetitle #titlecat h3#cat, #blogcontent #bodycontent #altdatetitle #titlecat h3#cat {
+        margin-top:5px;
+}
+#blogcontent #bodycontent #titlecat div.addthis{
+       margin:0;
+padding:0;
+}
+#blogcontent #bodycontent #datetitle #titlecat h3 a, #blogcontent #bodycontent #altdatetitle #titlecat h3 a{
+	padding:2px;
+	background-color:#2b2106;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:.6em;
+	color:#FFF;
+}
+#blogcontent #bodycontent #datetitle #titlecat h3 a:hover, #blogcontent #bodycontent #altdatetitle #titlecat h3 a:hover{
+        text-decoration:underline;
+}
+#bodycontent .date{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bolder;
+	font-size:1.5em;
+	color:#a5401e;
+	position:relative;
+	right:-20px;
+	}
+#blogcontent .clear{
+	clear:both;
+	
+	
+}
+#blogbottomborder{
+width:805px;
+	height:65px;
+	margin:auto;
+	background:url(/wp-content/themes/Blenheim/Images/blogbottomborder.png);
+	position:relative;
+	
+}
+#blogcontent #bodycontent .post  p{
+       margin:10px 10px 20px 18px;
+}
+#blogcontent #bodycontent .post  ul{
+       margin:0px 0px 0px 30px;
+
+}
+#blogcontent #leftsidebar  p{
+        margin:10px 10px 10px 10px;
+}
+#blogcontent #bodycontent .post  p, #blogcontent #leftsidebar  p,#blogcontent #bodycontent .post  li{ 
+	font-family:"Times New Roman", Times, serif;
+	color:#5a4f31;
+	
+	font-size:.8em;
+	line-height:1.5em;
+}
+#blogcontent #bodycontent .post  p img{
+        margin-right:10px;
+        position:relative;
+bottom:-2px;
+}
+#blogcontent #bodycontent .post   a{
+        color:#a5401e;
+}
+#blogcontent #bodycontent  #comments a{
+	margin-top:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:.85em;
+	color:#a5401e;
+	text-decoration:underline;
+       position:relative;
+       bottom:2px;
+}
+#blogcontent  #leftsidebar .feed{
+        margin:0;
+        width:221px;
+        height:auto;
+        padding:30px 0px 20px 0px;
+        border-bottom:1px dotted #2b2106;
+}
+#blogcontent  #leftsidebar h2  {
+	margin:0;
+	padding:0;
+	font-family:"Times New Roman", Times, serif;
+        font-weight:bold;
+	font-style:italic;
+	font-size:1.3em;
+	color:#998133;
+        line-height:1em;
+	text-transform:none;
+}
+#blogcontent  #leftsidebar li h2{
+        margin-bottom:10px;
+}
+#blogcontent #leftsidebar  p{
+	margin:10px 0px 10px 0px;
+	font-family:"Times New Roman", Times, serif;
+	color:#5a4f31;
+	font-weight:lighter;
+	font-size:.8em;
+	line-height:1.5em;
+}
+#blogcontent #leftsidebar .feed #rssemail{
+width:222px; height:53px;
+}
+#blogcontent #leftsidebar .feed form  h5{
+        margin-left:68px;
+        display:inline;
+        font-family:"Times New Roman", Times, serif;
+        font-weight:bold;
+        font-style:italic;
+        color:#a5401e;
+        font-size:1.3em;
+        position:relative;
+        bottom:13px;
+}
+#blogcontent #leftsidebar .feed form textarea, #blogcontent #leftsidebar .feed form input#email, 
+#blogcontent #leftsidebar .feed form input#name{
+        width:205px;
+        height:25px;
+        margin:5px 0px 5px 0px;
+        background-color:#f2eee0;
+        border:1px dotted #998133;
+        padding:10px 0px 0px 10px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight:normal;
+        color:#998133;
+        font-size:1.2em;
+       vertical-align:middle;
+        
+}
+#blogcontent #leftsidebar form.wpcf7-form p textarea#message{
+        width:205px;
+        height:25px;
+        margin:5px 0px 5px 0px;
+        background-color:#f2eee0;
+        border:1px dotted #998133;
+        padding:10px 0px 0px 10px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight:normal;
+        color:#998133;
+        font-size:1.2em;
+       vertical-align:middle;
+        
+}
+#blogcontent #leftsidebar form.wpcf7-form div.submit {
+        width:51px;
+        height:36px;
+}
+#blogcontent #leftsidebar form.wpcf7-form  h5{
+        display:inline;
+        font-family:"Times New Roman", Times, serif;
+        font-weight:bold;
+        font-style:italic;
+        color:#a5401e;
+        font-size:1.3em;
+}
+#blogcontent #leftsidebar form.wpcf7-form div.submit img{
+
+}
+#blogcontent #leftsidebar form.wpcf7-form div.submit input{
+         border:none;
+        margin:0;
+       padding:0; 
+        width:35px;
+        height:60px;
+color:#a5401e;
+      color:transparent !important;
+       background-color:transparent !important;
+       margin-top:-20px;
+       margin-left:6px;
+}
+#blogcontent #leftsidebar .flickrpress-container .flickr_item {
+        list-style-type:none;
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+}
+#blogcontent #leftsidebar .flickr_item a img{
+          width:67px;
+        height:67px;
+        border:1px solid #5a4f31;
+        margin-left:2px;
+}
+#blogcontent #leftsidebar li ul {
+        margin-left:15px;
+}
+
+#blogcontent #leftsidebar li{
+         list-style:none;
+}
+#blogcontent #leftsidebar li ul li{
+         list-style-image:url(/wp-content/themes/Blenheim/Images/categoryarrow.png);
+}
+#blogcontent #leftsidebar li ul li a{
+        font-family:"Times New Roman", Times, serif;
+	color:#2b2106;
+	font-weight:bold;
+	font-size:.9em;
+	line-height:1.5em;
+        position:relative;
+        bottom:-2px;
+}
+#blogcontent #leftsidebar li ul li a:hover{
+        color:#a5401e;
+        text-decoration:underline;
+}
+/*----- Single Posts Page Structure -----*/	
+#respond h3, h3#comments{
+        margin-left:10px;
+	padding:0;
+	font-family:"Times New Roman", Times, serif;
+        font-weight:normal;
+	font-style:italic;
+	font-size:1.4em;
+	color:#2b2106;
+        line-height:1em;
+	text-transform:none;
+}
+.comment-body{
+        margin:10px;
+	font-family:"Times New Roman", Times, serif;
+	color:#5a4f31;
+	font-weight:normal;
+	font-size:.8em;
+	line-height:1.5em;
+        background-color:#f2eee0;
+       border:1px solid #998133;
+    padding: 10px;
+}
+#respond #commentform{
+        margin-left:10px;
+}
+#respond #commentform input{
+       margin:3px 0px 0px 3px;
+       background-color:#f2eee0;
+       border:1px solid #998133;
+}
+#respond #commentform textarea{
+       margin:3px 0px 0px 3px;
+       background-color:#f2eee0;
+       border:1px solid #998133;
+}
+#respond #commentform p.submit input{
+       margin-top:10px;
+       color:#fff;
+       background-color:#a4731b;
+}
+#map_canvas{
+	margin: 0 0 10px;
+}
+.leftsidebarcontent{
+	background:url(Images/bg-left-sidebar-center.gif) repeat-y;
+	margin:0 0 20px 27px;
+	padding: 23px 15px 20px 18px;
+	width:161px;
+}
+.leftsidebarcontent h1{
+	font:bold 16px/18px "Times New Roman", Times, serif !important;
+	color:#998133 !important;
+	margin: 0 0 20px -3px;
+}
+.leftsidebarcontent:after{
+	content: '';
+	background:url(Images/bg-left-sidebar-bottom.gif) no-repeat 0 100%;
+	display:block;
+	width: 194px;
+	height: 19px;
+	margin: 0 0 -20px -18px;
+}
+.leftsidebarcontent:before{
+	content: '';
+	background:url(Images/bg-left-sidebar-top.gif) no-repeat;
+	display:block;
+	width: 194px;
+	height: 17px;
+	margin:-23px 0 0 -18px;
+}
+.leftsidebarcontent ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-align:left;
+	font:bold 13px/16px 'Times New Roman', Times, serif;
+}
+.leftsidebarcontent ul li{
+	display:block;
+	margin:0 0 7px;
+}
+.leftsidebarcontent ul a{
+	color:#9f3f0f;
+}
+.line{
+	background:url(Images/bg-line.gif) repeat-x;
+	display:block;
+	height: 1px;
+}
+.post h1, .post h2, .post h3, .post h4, .post h5{
+	margin:0 0 0 18px;
+}
