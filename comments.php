@@ -72,6 +72,9 @@
 
 		<?php endif; ?>
 
+		<p class="commentform"><input type="text" name="question" id="question" value="" size="22" tabindex="4" required />
+		<label for="question"><small>Security question | 2 + 2 * 2 = ?</small></label></p>
+
 		<!--<p><strong>XHTML:</strong> You can use these tags: <code><?php echo allowed_tags(); ?></code></p>-->
 
 		<textarea name="comment" id="comment" cols="60" rows="10" tabindex="4"></textarea>
@@ -81,7 +84,15 @@
 		<?php do_action('comment_form', $post->ID); ?>
 
 	</form>
-
+	<script>		
+		jQuery('#commentform').submit(function(e){
+			if(jQuery('#question').val() != 6)
+			{
+				alert('Wrong security answer!');
+				e.preventDefault();	
+			}
+		});
+	</script>
 	<?php endif; // If registration required and not logged in ?>
 
 </div>
