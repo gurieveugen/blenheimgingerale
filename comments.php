@@ -3,7 +3,7 @@
  * @package WordPress
  * @subpackage Starkers
  */
-
+$options = $GLOBALS['security']->getAll();
 // Do not delete these lines
 	if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
 		die ('Please do not load this page directly. Thanks!');
@@ -73,7 +73,7 @@
 		<?php endif; ?>
 
 		<p class="commentform"><input type="text" name="question" id="question" value="" size="22" tabindex="4" required />
-		<label for="question"><small>Security question | 2 + 2 * 2 = ?</small></label></p>
+		<label for="question"><small>Security question | <?php echo $options['question_&_answer']['question']; ?></small></label></p>
 
 		<!--<p><strong>XHTML:</strong> You can use these tags: <code><?php echo allowed_tags(); ?></code></p>-->
 
@@ -86,11 +86,11 @@
 	</form>
 	<script>		
 		jQuery('#commentform').submit(function(e){
-			if(jQuery('#question').val() != 6)
-			{
-				alert('Wrong security answer!');
-				e.preventDefault();	
-			}
+			// if(jQuery('#question').val() != 6)
+			// {
+			// 	alert('Wrong security answer!');
+			// 	e.preventDefault();	
+			// }
 		});
 	</script>
 	<?php endif; // If registration required and not logged in ?>
